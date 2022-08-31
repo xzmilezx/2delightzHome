@@ -9,21 +9,27 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
 
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/myWork.js"> </script>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="javascript/index.js"> </script>
@@ -34,15 +40,17 @@
 
     <header class="navigation">
         <div>
-            <img class="navbg" src="images/headerlines2.svg">
 
         </div>
+
+
         <div class="inline-block logo">
             <a href="index.html"><img class="logo" src="image/components/logoFlwrLrgD.png"></a>
         </div>
         <div class="mobileMenu">
             <img class="menu" src="images/menu.svg">
         </div>
+
         <nav class="inline-block">
             <ul>
                 <li class="inline-block"> <button class="button headerbtn"
@@ -51,18 +59,21 @@
                         onclick="document.location.href='myWork.html'">FLAVORS </button></li>
                 <li class="inline-block"> <button class="button headerbtn"
                         onclick="document.location.href='myArt.html'">GIFT BOXES</button></li>
-                        <li class="inline-block"> <button class="button headerbtn"
-                            onclick="document.location.href='myArt.html'">CUSTOM MACS</button></li>
+                <li class="inline-block"> <button class="button headerbtn"
+                        onclick="document.location.href='myArt.html'">CUSTOM MACS</button></li>
                 <li class="inline-block"> <button class="button headerbtn"
                         onclick="document.location.href='contactMe.html'">CONTACT US </button></li>
             </ul>
         </nav>
     </header>
+
     <section class="hero">
-        <div class="heroImg"> <img class="rainbowMacHero" style="width:100%;" src="image/2dPics/rainbowmacsglow.png"> </div>
+        <div class="heroImg"> <img class="rainbowMacHero" style="width:100%;" src="image/2dPics/rainbowmacsglow.png">
+        </div>
         <div class="heroImg"> <img class="cocomelonHero" style="width:100%;" src="image/2dCustom/cocomelon.png"> </div>
-        <div class="heroImg"> <img class="chocolateHero" style="width:100%;" src="image/2dFlavors/chocoHazel.png"> </div>
+        <div class="heroImg"> <img class="chocolateHero" src="image/2dFlavors/chocoHazel.png"> </div>
         <div class="heroImg"> <img class="tyBoxHero" style="width:100%;" src="image/2dPics/ty.png"> </div>
+        <div class="heroImg"> <img class="flavors" src="image/flavorsized/choco.png"> </div>
         <div class="homeAboutMe"> <button class="button " onclick="document.location.href='aboutMe.html'">ABOUT
                 ME</button> </div>
 
@@ -72,22 +83,297 @@
 
     </section>
 
+    <section class="macFlavors">
+        <div>
+            <h1>2DELIGHTZ FLAVORS</h1>
+        </div>
+        <div class="flexContainer">
+
+            <div class="flexChildren raspberry" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/rasp.png">
+                    <h2> RASPBERRY</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren chocolateHazelnut" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/choco.png">
+                    <h2> CHOCOLATE HAZELNUT</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren durian" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/durian.png">
+                    <h2>DURIAN</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren matcha" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/matcha.png">
+                    <h2> MATCHA</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren earlGrey" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/earlG.png">
+                    <h2> EARL GREY</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren coffee" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/coffee.png">
+                    <h2> COFFEE</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren ube" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/ube.png">
+                    <h2> UBE</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren passionFruit" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/passion.png">
+                    <h2> PASSION FRUIT</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren lycheeRose" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/lychee.png">
+                    <h2> LYCHE ROSE</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren thaiTea" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/thaiT.png">
+                    <h2> THAI TEA</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren blackSesame" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/blackS.png">
+                    <h2> BLACK SESAME</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren coconut" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/flavorsized/coconut.png">
+                    <h2>COCONUT</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="giftBoxes">
+        <div>
+            <h1>GIFT BOXES</h1>
+        </div>
+        <div class="flexContainer">
+
+            <div class="flexChildren valentineBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/valentine .png">
+                    <h2> LOVE TIC-TAC-TOE</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren tigerBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/tiger.png">
+                    <h2>TIGER BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren 2ctfavorBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/2ct.png">
+                    <h2> 2 CT PARTY FAVOR BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren holidayBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/gb 9ct.png">
+                    <h2> HOLIDAY BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren animalBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/animals.png">
+                    <h2> ANIMALS BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren blackBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/black .png">
+                    <h2> BLACK BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren owlbox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/customowl.png">
+                    <h2> OWL BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren 24MiniBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/love copy.png">
+                    <h2> LOVE 24 CT MINI BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren ugaBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/uga.png">
+                    <h2>UGA GRADUATION BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren babyBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/baby box .png">
+                    <h2> BABY BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren genderBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/gift box 16 ct.png">
+                    <h2> GENDER REVEAL BOX</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren partyBox" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dBoxes/54 box.png">
+                    <h2>PARTY BOX 54 CT MINIS</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="customMacs">
+        <div>
+            <h1>CUSTOM MACARONS</h1>
+        </div>
+        <div class="flexContainer">
+
+            <div class="flexChildren cocomelon" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/cocomelon.png">
+                    <h2> COCOMELON</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren rilakkuma" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/bear.png">
+                    <h2> RILAKKUMA</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren daisy" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/daisy.png">
+                    <h2> DAISY</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren holiday" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/holiday.jpg">
+                    <h2> HOLIDAY</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren bunny" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/bunny.png">
+                    <h2> BUNNY</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren animals" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/animals2.png">
+                    <h2> ANIMALS</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren ksuOwl" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/customowl.png">
+                    <h2> KSU OWL</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren cat" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/cat.png">
+                    <h2> CAT</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren uga" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/uga.png">
+                    <h2>UGA</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren tiger" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/tiger.png">
+                    <h2> TIGER</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren rattles" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/rattle.png">
+                    <h2>BABY RATTLES</h2>
+                </div>
+            </div>
+
+            <div class="flexChildren baby" onclick="document.location.href='hero.html'">
+                <div class="flexColumn">
+                    <img class="cardImg" src="image/2dCustom/baby.png">
+                    <h2>BABY</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
     <footer>
-        <div class="footerText"> © 2022 All Rights Reserved </div>
-        <div>
-            <img id="footbg" src="images/footerlines.svg">
-        </div>
-
+        <div class="footerText"> © 2022 2delightz. All Rights Reserved </div>
 
         <footer class="footerBlock">
             <ul>
                 <li id="facebook" class="inline-block"> <img src="image/components/fbD.png"></li>
-                <li id="instagram" class="inline-block"> <img src="image/components/instaD.png"></li>
+                <li id="instagram" class="inline-block"> <img src="image/svg/instaSVG.svg"></li>
                 <li id="mail" class="inline-block"> <img src="image/components/mailD.png"> </li>
                 <li id="emailMe" class="inline-block"> <button class="button"
                         onclick="document.location =  'mailto:thanh2pham@gmail.com'">EMAIL ME </button> </li>
-
             </ul>
         </footer>
 </body>

@@ -1,0 +1,283 @@
+body {
+    background-color: #365067;
+    padding-bottom:0px;
+    height: 100%;
+  }
+  section.heroImg {
+    text-align: right;
+  }
+  
+  
+
+  .button {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFCBF0;
+    background-color: #142F46;
+    border: 3px solid #FFFFFF;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: auto;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+    /* display: flex;
+flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    left: 20px;
+    top: 20px; */
+    
+    
+
+  }
+  
+  .button:hover {
+    background-color: #A43E87;
+    color: white;
+    transform: scale(1.2);
+  }
+  
+  button.glowBtn {
+    color: white;
+    transform: scale(1.2);
+    background: #40629B;
+    border: 5px solid #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(252, 251, 251, 0.5);
+  }
+  
+  ul {
+    margin-bottom: 0%;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  
+  /* FOOTER  */
+  #footbg {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    z-index: 90;
+  }
+  
+  .footerBlock {
+    position: fixed;
+    right: 5%;
+    bottom: 0%;
+    z-index: 120;
+    margin-bottom: 0%;
+  }
+  
+  .footerText {
+  font-family: 'SF Pro Rounded';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 11px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 200;
+  position: fixed;
+  bottom: 0%;
+  left:40%;
+  }
+  
+  #facebook:hover {
+    transform: scale(1.2);
+  }
+  
+  #instagram:hover {
+    transform: scale(1.2);
+  }
+  
+  #mail:hover {
+    transform: scale(1.2);
+  }
+  
+  img.logo:hover {
+    transform: scale(1.2);
+  }
+  
+  /* HEADER */
+  .navbg {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 90;
+  }
+  
+  img.logo {
+    position: fixed;
+    right: 74.28%;
+    top: 0%;
+    bottom: 0.74%;
+    z-index: 130;
+  }
+  
+  img.menu {
+    position: fixed;
+    right: 7%;
+    top: 2%;
+    z-index: 130;
+    display: none;
+  }
+  
+  nav.inline-block {
+    position: fixed;
+    right: 5%;
+    top: 0%;
+    z-index: 120;
+    width: auto;
+  }
+  .inline-block {
+    display: inline-block;
+    vertical-align:middle;
+    padding: 10px;
+  }
+  
+  /* Content */
+  
+/*   
+  
+  @keyframes aboutMeFadeIn {
+    0%    { opacity: 0; }
+    25%   { opacity: 0; }
+    50%   { opacity: 0.5; }
+    75%  { opacity: 0.75; }
+    100%  { opacity: 1; }
+  }
+  
+  .homeAboutMe {
+    animation: aboutMeFadeIn 5s;
+  }
+   */
+  @media only screen and (max-width: 800px) {
+    .logo {
+      width: 20%;
+    }
+  
+    .headerbtn {
+      display: none;
+    }
+  
+    img.menu {
+      display: block;
+    }
+  }
+  
+
+
+
+
+.flexContainer {
+    display: flex;
+    position: absolute;
+    left: 3.4%;
+    right: 4.17%;
+    top:27%;
+    bottom: 22.36%;
+    height: max-content;
+    padding-bottom: 150px;
+}
+
+.flexChildren {
+    width: 33%;
+    height: auto;
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    border: solid 3px #ffcbf0;
+    background-color: #142F46;
+}
+
+.flexChildren:hover {
+transform: scale(1.05);
+border: 7px solid #FFCBF0;
+}
+
+h1 {
+
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 93px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin: 2px 2px;
+    color: #FFCBF0;
+}
+
+p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #FFFBFB;
+}
+
+#footerSpace {
+    margin:100px;
+}
+@media only screen and (max-width: 800px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+  
+    .flexChildren {
+        width: auto;
+    }
+
+  }
+  
