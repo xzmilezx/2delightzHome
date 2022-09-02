@@ -1,0 +1,99 @@
+.mainFlex
+{
+	display: flex;
+	width: 100%;
+	height: max-content;
+	flex-direction: column;
+}
+
+.cardFlex
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.flavorFlex
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+	margin-right: 40px;
+	flex-wrap: wrap;
+	flex_flow: row wrap;
+}
+
+.giftFlex
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+	margin-right: 40px;
+	flex-wrap: wrap;
+	flex_flow: row wrap;
+}
+
+.customFlex
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+	margin-right: 40px;
+	flex-wrap: wrap;
+	flex_flow: row wrap;
+}
+
+.contactFlex
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+	margin-right: 40px;
+	flex-wrap: wrap;
+	flex_flow: row wrap;
+}
+
+
+.viewAllChildren:hover
+{
+	transform: scale(1.05);
+}
+
+.viewAllChildren
+{
+	flex-grow: 1;
+	width: 30%;
+	height 40%: ;
+	margin: 10px;
+}
+
+.flavorChildren
+{
+	flex-grow: 1;
+	width: 30%;
+	height:40%;
+	margin: 10px;
+	position: relative;
+}
+
+/* .flavorFlex .raspberryCol . { } */
+
+.flavorChildren:hover
+{
+	transform: scale(1.05);
+	border: 7px solid #FFCBF0;
+}
+
+.flexHeader
+{
+	font-size: 40px;
+	color: black;
+	font-family: 'Amatic SC';
+	font-weight: 600;
+	padding-bottom: 10px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.modalFlex { display: flex; }
+.modalBodyLeft { width: 50%; }
+.modalBodyRight { width: 50%; }

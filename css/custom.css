@@ -1,0 +1,43 @@
+.cocomelon { background: red; }
+.rilakkuma { background: brown; }
+.daisy { background: yellow; }
+.holiday { background: green; }
+.bunny { background: darkgreen; }
+.animals2 { background: burlywood; }
+.ksuOwl { background: purple; }
+.cat { background: orange; }
+.uga2 { background: pink; }
+.rattles { background: tan; }
+.baby2 { background: black; }
+
+.coconut
+{
+	color: black;
+	background: white;
+}
+
+.cocomelonView { display: none; }
+.rilakkumaView { display: none; }
+.daisyView { display: none; }
+.holidayView { display: none; }
+.bunnyView { display: none; }
+.animals2View { display: none; }
+.ksuOwlView { display: none; }
+.catView { display: none; }
+.uga2View { display: none; }
+.rattlesView { display: none; }
+.baby2View { display: none; }
+.coconutView { display: none; }
+div.cocomelonCol:hover .cocomelonView { display: inline-block; }
+div.rilakkumaCol:hover .rilakkumaView { display: inline-block; }
+div.daisyCol:hover .daisyView { display: inline-block; }
+div.holidayCol:hover .holidayView { display: inline-block; }
+div.bunnyCol:hover .bunnyView { display: inline-block; }
+div.animals2Col:hover .animals2View { display: inline-block; }
+div.ksuOwlCol:hover .ksuOwlView { display: inline-block; }
+div.catCol:hover .catView { display: inline-block; }
+div.uga2Col:hover .uga2View { display: inline-block; }
+div.rattlesCol:hover .rattlesView { display: inline-block; }
+div.baby2Col:hover .baby2View { display: inline-block; }
+div.coconutCol:hover .coconutView { display: inline-block; }
+.extraCustom { display: none; }

@@ -1,0 +1,43 @@
+.valentine { background: red; }
+.tiger { background: brown; }
+.two { background: yellow; }
+.nine { background: green; }
+.animals { background: darkgreen; }
+.black { background: burlywood; }
+.owl { background: purple; }
+.love { background: orange; }
+.uga { background: pink; }
+.baby { background: tan; }
+.minis { background: black; }
+
+.coconut
+{
+	color: black;
+	background: white;
+}
+
+.valentineView { display: none; }
+.tigerView { display: none; }
+.twoView { display: none; }
+.nineView { display: none; }
+.animalsView { display: none; }
+.blackView { display: none; }
+.owlView { display: none; }
+.loveView { display: none; }
+.ugaView { display: none; }
+.babyView { display: none; }
+.minisView { display: none; }
+.coconutView { display: none; }
+div.valentineCol:hover .valentineView { display: inline-block; }
+div.tigerCol:hover .tigerView { display: inline-block; }
+div.twoCol:hover .twoView { display: inline-block; }
+div.nineCol:hover .nineView { display: inline-block; }
+div.animalsCol:hover .animalsView { display: inline-block; }
+div.blackCol:hover .blackView { display: inline-block; }
+div.owlCol:hover .owlView { display: inline-block; }
+div.loveCol:hover .loveView { display: inline-block; }
+div.ugaCol:hover .ugaView { display: inline-block; }
+div.babyCol:hover .babyView { display: inline-block; }
+div.minisCol:hover .minisView { display: inline-block; }
+div.coconutCol:hover .coconutView { display: inline-block; }
+.extraGift { display: none; }

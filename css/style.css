@@ -1,139 +1,157 @@
-body {
-    background-color: #fcefff;
-    padding-bottom: 0px;
-    height: 100%;
+body
+{
+	background-color: #fcefff;
+	padding-bottom: 0px;
+	height: 100%;
+	width: 100%;
+	font-family: sue ellen Francisco;
 }
 
-section.heroImg {
-    text-align: right;
+section.heroImg { text-align: right; }
+
+.button
+{
+	font-family: 'Amatic SC';
+	font-style: bold;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	color: #3f196b;
+	background: none;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	margin: 10px 0px;
+	cursor: pointer;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	border: 0;
 }
 
-
-
-.button {
-    font-family: 'Amatic SC';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: center;
-    color: #3f196b;
-    background: none;
-
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    margin: 10px 0px;
-    cursor: pointer;
-    border-radius: 5px;
-    letter-spacing: 2px;
-    border: 0;
+.button:hover
+{
+	background: radial-gradient(rgb(247, 177, 248) 0, rgba(244, 162, 244,0) 60%);
+	color: #3f196b;
+	transform: scale(1.2);
 }
 
-.button:hover {
-
-    background: radial-gradient(rgb(247, 177, 248) 0, rgba(244, 162, 244,0) 60%);
-    color: #3f196b;
-    transform: scale(1.2);
+ul
+{
+	margin-bottom: 0%;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
 }
-
-
-ul {
-    margin-bottom: 0%;
-    margin-top: 0;
-    padding: 0;
-    text-align: center;
-    vertical-align: middle;
-}
-
 
 /* FOOTER  */
-#footbg {
-    position: fixed;
-    width: 100%;
-    bottom: 0%;
-    z-index: 90;
+#footbg
+{
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+	z-index: 90;
 }
 
-.footerBlock {
-    position: fixed;
-    right: 5%;
-    bottom: 0%;
-    z-index: 120;
-    margin-bottom: 0%;
+.footerBlock
+{
+	position: fixed;
+	right: 5%;
+	bottom: 0%;
+	z-index: 120;
+	margin-bottom: 0%;
 }
 
-.footerText {
-    font-family: 'SF Pro Rounded';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 11px;
-    line-height: 11px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    z-index: 200;
-    position: fixed;
-    bottom: 0%;
-    left: 40%;
+.footerText
+{
+	font-family: 'SF Pro Rounded';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 11px;
+	line-height: 11px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 200;
+	position: fixed;
+	bottom: 0%;
+	left: 40%;
 }
 
-#facebook:hover {
-    transform: scale(1.2);
-    background: radial-gradient(rgb(245, 176, 246) 0, #faeefa 60%);
+#facebook:hover
+{
+	transform: scale(1.2);
+	background: radial-gradient(rgb(247, 177, 248) 0, rgba(244, 162, 244,0) 60%);
 }
 
-#instagram:hover {
-    transform: scale(1.2);
-    background: radial-gradient(rgb(162, 225, 248) 0, #faeefa 60%);
+#instagram:hover
+{
+	transform: scale(1.2);
+	background: radial-gradient(rgb(247, 177, 248) 0, rgba(244, 162, 244,0) 60%);
 }
 
-#mail:hover {
-    transform: scale(1.2);
-    background: radial-gradient(rgb(245, 176, 246) 0, #faeefa 60%);
+#mail:hover
+{
+	transform: scale(1.2);
+	background: radial-gradient(rgb(247, 177, 248) 0, rgba(244, 162, 244,0) 60%);
 }
 
-img.logo:hover {
-    transform: scale(1.2);
+img.logo:hover { transform: scale(1.2); }
+
+.loginDiv:hover
+{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.cartDiv:hover
+{
+	transform: scale(1.2);
+	cursor: pointer;
 }
 
 /* HEADER */
-.navbg {
-    width: 100%;
-    position: fixed;
-    top: 0%;
-    z-index: 90;
+.navbg
+{
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	z-index: 90;
 }
 
-img.logo {
-    position: fixed;
-    right: 74.28%;
-    top: 0%;
-    bottom: 0.74%;
-    z-index: 130;
+img.logo
+{
+	position: fixed;
+	left: -44px;
+	top: -94px;
+	z-index: 10;
+	height: 300px;
+	width: 300px;
 }
 
-img.menu {
-    position: fixed;
-    right: 7%;
-    top: 2%;
-    z-index: 130;
-    display: none;
+img.menu
+{
+	position: fixed;
+	right: 7%;
+	top: 2%;
+	z-index: 130;
+	display: none;
 }
 
-nav.inline-block {
-    position: fixed;
-    right: 5%;
-    top: 0%;
-    z-index: 120;
-    width: auto;
+nav.inline-block
+{
+	position: fixed;
+	right: 5%;
+	top: 20px;
+	z-index: 120;
+	width: auto;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 10px;
+.inline-block
+{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Content */
@@ -152,117 +170,106 @@ nav.inline-block {
     animation: aboutMeFadeIn 5s;
   }
    */
-@media only screen and (max-width: 800px) {
-    .logo {
-        width: 20%;
-    }
 
-    .headerbtn {
-        display: none;
-    }
-
-    img.menu {
-        display: block;
-    }
+@media only screen and (max-width: 800px)
+{
+	.logo { width: 20%; }
+	.headerbtn { display: none; }
+	img.menu { display: block; }
 }
 
-
-
-
-
-.flexContainer {
-    display: flex;
-    position: absolute;
-    left: 3.4%;
-    right: 4.17%;
-    top: 27%;
-    bottom: 22.36%;
-    height: max-content;
-    padding-bottom: 150px;
+h1
+{
+	margin-top: 7%;
+	margin-bottom: 3%;
+	font-family: 'Yusei Magic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 93px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
-.flexChildren {
-    width: 33%;
-    height: auto;
-    padding: 0px;
-    margin: 20px;
-    text-align: center;
-    border: solid 3px #ffcbf0;
-    background-color: #142F46;
+.cardImg { width: 100%; }
+
+h2
+{
+	font-family: 'Yusei Magic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #FFFFFF;
 }
 
-.flexChildren:hover {
-    transform: scale(1.05);
-    border: 7px solid #FFCBF0;
+h3
+{
+	font-family: 'Yusei Magic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	margin: 2px 2px;
+	color: #FFCBF0;
 }
 
-h1 {
-
-    margin-top: 7%;
-    margin-bottom: 3%;
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 93px;
-    text-align: center;
-    color: #FFFFFF;
+p
+{
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	letter-spacing: 0.25px;
+	color: #FFFBFB;
 }
 
-.cardImg {
-    width: 100%;
+/* .headNav { margin-top: 50px; } */
+.headerBar
+{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background: rgba(255, 255, 255, 0.4);
+	z-index: 1;
 }
 
-h2 {
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.15px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #FFFFFF;
+#cartIcon { height: 20px; }
+#loginIcon { height: 20px; }
+
+.cartDiv
+{
+	position: fixed;
+	top: 0px;
+	right: 30px;
+	z-index: 2;
+	font-family: 'Amatic SC';
 }
 
-h3 {
-    font-family: 'Yusei Magic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.15px;
-    margin: 2px 2px;
-    color: #FFCBF0;
+.loginDiv
+{
+	position: fixed;
+	top: 2px;
+	right: 80px;
+	z-index: 2;
+	font-family: 'Amatic SC';
 }
 
-p {
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    margin-right: 10px;
-    margin-left: 10px;
-    text-align: center;
-    letter-spacing: 0.25px;
+#footerSpace { margin: 100px; }
 
-    color: #FFFBFB;
-}
-
-#footerSpace {
-    margin: 100px;
-}
-
-@media only screen and (max-width: 800px) {
-    .flexContainer {
-        flex-direction: column;
-    }
-
-    .flexChildren {
-        width: auto;
-    }
-
+@media only screen and (max-width: 800px)
+{
+	.flexContainer { flex-direction: column; }
+	.flexChildren { width: auto; }
 }

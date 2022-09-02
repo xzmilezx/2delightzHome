@@ -1,0 +1,13 @@
+.modal-header
+{
+	padding: 15px;
+	text-align: center;
+	font-family: quicksand;
+	border: none;
+}
+
+#modalImage
+{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,73 @@
+.quickView
+{
+	border-radius: 15%;
+	background: white;
+	border: 1px solid blue;
+	position: absolute;
+	left: 25%;
+	bottom: 25%;
+}
+
+.base
+{
+	color: white;
+	font-family: 'Amatic SC';
+	font-weight: 600;
+letter-spacing:2px;
+	height: 64px;
+	text-align: center;
+	font-size: 36px;
+	padding-top:8px;
+    padding-bottom: 8px;
+}
+
+.raspberry { background: #DBA2A2; }
+.chocolateHazelnut { background:#CF9469; }
+.durian { background: #CABB70; }
+.matcha { background: #ACBE87; }
+.earlGrey { background: #88CFB1; }
+.coffee { background: #6D97D6; }
+.ube { background: #9788D3; }
+.passionFruit { background: #C67ACD; }
+.lycheeRose { background: #DBA2A2; }
+.thaiTea { background: #CF9469; }
+.blackSesame { background: #CABB70; }
+
+.coconut
+{
+	color: black;
+	background: white;
+}
+
+.raspberryView { display: none; }
+.chocolateHazelnutView { display: none; }
+.durianView { display: none; }
+.matchaView { display: none; }
+.earlGreyView { display: none; }
+.coffeeView { display: none; }
+.ubeView { display: none; }
+.passionFruitView { display: none; }
+.lycheeRoseView { display: none; }
+.thaiTeaView { display: none; }
+.blackSesameView { display: none; }
+.coconutView { display: none; }
+div.raspberryCol:hover .raspberryView { display: inline-block; }
+div.chocolateHazelnutCol:hover .chocolateHazelnutView { display: inline-block; }
+div.durianCol:hover .durianView { display: inline-block; }
+div.matchaCol:hover .matchaView { display: inline-block; }
+div.earlGreyCol:hover .earlGreyView { display: inline-block; }
+div.coffeeCol:hover .coffeeView { display: inline-block; }
+div.ubeCol:hover .ubeView { display: inline-block; }
+div.passionFruitCol:hover .passionFruitView { display: inline-block; }
+div.lycheeRoseCol:hover .lycheeRoseView { display: inline-block; }
+div.thaiTeaCol:hover .thaiTeaView { display: inline-block; }
+div.blackSesameCol:hover .blackSesameView { display: inline-block; }
+div.coconutCol:hover .coconutView { display: inline-block; }
+.extraChildren { display: none; }
+
+.viewAll
+{
+	border: none;
+	color: darkblue;
+	background:transparent;
+}
